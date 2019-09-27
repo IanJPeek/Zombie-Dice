@@ -1,0 +1,21 @@
+// ZOMBIE DICE
+
+// 1) Create array of 13 dice (6 green, 4 yellow, 3 red)
+// 2) Create corresponding rolls/ results for each dice type
+
+// 2.2?) Pre-game..? Prompt to input number of players. 
+// *Implement later for Multi-P game (after 1P build)*
+
+// 3) Allow user to see dice the 3 dice picked, then to roll those 3 dice for a result
+// 4) Assign user a score based on result & remove 1st rolled dice from original array
+// 5) Prompt user if they wish to roll again, then return a result of the 3 dice they'd be rolling for next throw
+// 6) Prompt user if they wish to roll these dice, then return roll...
+// 7) Continue above process, updating score (brains eaten - this round & overall), 
+//    giving option to stop (next player/ new round), or ending turn if 3 x guns.
+
+
+var userRoll1 = prompt("You're feeling hungry. Ready to roll?  (Y/N)  :"
+
+if (userRoll1.toLowerCase() === "y") {}
+if (userRoll1.toLowerCase() === "n") {}
+// + default? ... re-frame above as switch statement 
