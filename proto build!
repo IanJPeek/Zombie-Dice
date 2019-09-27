@@ -19,3 +19,18 @@ var userRoll1 = prompt("You're feeling hungry. Ready to roll?  (Y/N)  :"
 if (userRoll1.toLowerCase() === "y") {}
 if (userRoll1.toLowerCase() === "n") {}
 // + default? ... re-frame above as switch statement 
+
+
+var allDice = [Green1, Green2, Green3, Green4, Green5, Green6, Yellow1, Yellow2, Yellow3, Yellow4, Red1, Red2, Red3]
+
+var rollResult = [Brain, Brain, Brain, Runner, Runner, Shotgun, Shotgun, Shotgun]
+/* Green  = 0-5
+   Yellow = 1-6
+   Red    = 2-7
+*/
+
+function diceRoll(){return Math.floor((Math.random()*6));}
+
+function diceRollGreen (diceRoll) {return rollResult[diceRoll];}
+function diceRollYellow (diceRoll) {return rollResult[diceRoll+1];}
+function diceRollRed (diceRoll) {return rollResult[diceRoll+2];}
